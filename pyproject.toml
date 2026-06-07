@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "planted-benchmark"
+version = "2.3.2"
+description = "Planted-solution Pauli-Hamiltonian quantum benchmarking primitive (reference implementation)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = ["numpy>=1.24"]
+
+[project.optional-dependencies]
+# Enables the sparse k-lowest eigenvalue path in spectral.ground_gap.
+sparse = ["scipy>=1.10"]
+
+[project.scripts]
+qbench = "qbench:main"
+
+[tool.setuptools]
+packages = ["planted_benchmark"]
+py-modules = ["qbench", "spectrum_single", "mingap_single", "make_filelist"]

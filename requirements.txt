@@ -1,0 +1,6 @@
+# Required
+numpy>=1.24
+
+# Optional: enables the sparse k-lowest eigenvalue path in spectral.ground_gap
+# (everything else, including all tests, runs on numpy alone).
+scipy>=1.10
