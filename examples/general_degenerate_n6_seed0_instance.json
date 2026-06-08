@@ -1,0 +1,460 @@
+{
+  "schema": "planted-benchmark/instance/v2",
+  "instance_id": "general_6q_2c_seed0_8e996bc1",
+  "kind": "general",
+  "n_qubits": 6,
+  "hamiltonian": {
+    "format": "pauli_sum",
+    "num_terms": 111,
+    "terms": [
+      {
+        "pauli": "IIIIXI",
+        "coeff": 0.046317941873113284
+      },
+      {
+        "pauli": "IIIIYI",
+        "coeff": -0.30977041525897253
+      },
+      {
+        "pauli": "IIIIZI",
+        "coeff": -0.10632770579549998
+      },
+      {
+        "pauli": "IIIXII",
+        "coeff": 0.23449104094214537
+      },
+      {
+        "pauli": "IIIYII",
+        "coeff": -0.24396656007464493
+      },
+      {
+        "pauli": "IIIZII",
+        "coeff": 0.1960647396419826
+      },
+      {
+        "pauli": "IXIIII",
+        "coeff": 0.1683591924493022
+      },
+      {
+        "pauli": "IXIIXI",
+        "coeff": -0.057017792773957424
+      },
+      {
+        "pauli": "IXIIYI",
+        "coeff": 0.19283491501248645
+      },
+      {
+        "pauli": "IXIIZI",
+        "coeff": 0.1027151490997466
+      },
+      {
+        "pauli": "IXIXII",
+        "coeff": -0.13657678470853765
+      },
+      {
+        "pauli": "IXIYII",
+        "coeff": 0.14484009171955303
+      },
+      {
+        "pauli": "IXIZII",
+        "coeff": 0.0915715246194053
+      },
+      {
+        "pauli": "IYIIII",
+        "coeff": 0.203179075413075
+      },
+      {
+        "pauli": "IYIIXI",
+        "coeff": -0.1864189994600079
+      },
+      {
+        "pauli": "IYIIYI",
+        "coeff": 0.24100139345307275
+      },
+      {
+        "pauli": "IYIIZI",
+        "coeff": -0.16109313400383746
+      },
+      {
+        "pauli": "IYIXII",
+        "coeff": -0.12247675111836233
+      },
+      {
+        "pauli": "IYIYII",
+        "coeff": -0.06125851024481944
+      },
+      {
+        "pauli": "IYIZII",
+        "coeff": -0.009657750753988755
+      },
+      {
+        "pauli": "IZIIII",
+        "coeff": 0.21010170720866694
+      },
+      {
+        "pauli": "IZIIXI",
+        "coeff": 0.043636240937462385
+      },
+      {
+        "pauli": "IZIIYI",
+        "coeff": -0.07637260738505687
+      },
+      {
+        "pauli": "IZIIZI",
+        "coeff": 0.003982628305711464
+      },
+      {
+        "pauli": "IZIXII",
+        "coeff": 0.14879822523815325
+      },
+      {
+        "pauli": "IZIYII",
+        "coeff": -0.020122519371452704
+      },
+      {
+        "pauli": "IZIZII",
+        "coeff": -0.10423785484180892
+      },
+      {
+        "pauli": "XIIIII",
+        "coeff": 0.14298768946982937
+      },
+      {
+        "pauli": "XIIIXI",
+        "coeff": -0.28411554236457476
+      },
+      {
+        "pauli": "XIIIYI",
+        "coeff": -0.12323454234398203
+      },
+      {
+        "pauli": "XIIIZI",
+        "coeff": 0.11658892256740346
+      },
+      {
+        "pauli": "XIIXII",
+        "coeff": -0.04100669368290936
+      },
+      {
+        "pauli": "XIIYII",
+        "coeff": 0.287590500632382
+      },
+      {
+        "pauli": "XIIZII",
+        "coeff": 0.07543030853780912
+      },
+      {
+        "pauli": "XXIIII",
+        "coeff": -0.02449315763277398
+      },
+      {
+        "pauli": "XXIIXI",
+        "coeff": -0.2262217284421265
+      },
+      {
+        "pauli": "XXIIYI",
+        "coeff": -0.14139688057618086
+      },
+      {
+        "pauli": "XXIIZI",
+        "coeff": 0.4526415135944626
+      },
+      {
+        "pauli": "XXIXII",
+        "coeff": -0.29575677485227064
+      },
+      {
+        "pauli": "XXIYII",
+        "coeff": -0.03326788685118065
+      },
+      {
+        "pauli": "XXIZII",
+        "coeff": 0.12545201405527176
+      },
+      {
+        "pauli": "XYIIII",
+        "coeff": 0.14163131631275597
+      },
+      {
+        "pauli": "XYIIXI",
+        "coeff": -0.20105153847096546
+      },
+      {
+        "pauli": "XYIIYI",
+        "coeff": -0.2243521325870945
+      },
+      {
+        "pauli": "XYIIZI",
+        "coeff": 0.29830071510416606
+      },
+      {
+        "pauli": "XYIXII",
+        "coeff": -0.06731288563167233
+      },
+      {
+        "pauli": "XYIYII",
+        "coeff": 0.11104601160846789
+      },
+      {
+        "pauli": "XYIZII",
+        "coeff": 0.17563809752923884
+      },
+      {
+        "pauli": "XZIIII",
+        "coeff": 0.030373291317297386
+      },
+      {
+        "pauli": "XZIIXI",
+        "coeff": 0.023991498044411128
+      },
+      {
+        "pauli": "XZIIYI",
+        "coeff": -0.06873123162905619
+      },
+      {
+        "pauli": "XZIIZI",
+        "coeff": -0.09005562246406458
+      },
+      {
+        "pauli": "XZIXII",
+        "coeff": 0.12327012148630898
+      },
+      {
+        "pauli": "XZIYII",
+        "coeff": 0.14666520208299216
+      },
+      {
+        "pauli": "XZIZII",
+        "coeff": 0.0643005767748466
+      },
+      {
+        "pauli": "YIIIII",
+        "coeff": 0.12030550939812419
+      },
+      {
+        "pauli": "YIIIXI",
+        "coeff": 0.34642881291093125
+      },
+      {
+        "pauli": "YIIIYI",
+        "coeff": 0.05569582652128242
+      },
+      {
+        "pauli": "YIIIZI",
+        "coeff": 0.13112181685033916
+      },
+      {
+        "pauli": "YIIXII",
+        "coeff": 0.2667674787143932
+      },
+      {
+        "pauli": "YIIYII",
+        "coeff": 0.06595142362226715
+      },
+      {
+        "pauli": "YIIZII",
+        "coeff": 0.06496787949074465
+      },
+      {
+        "pauli": "YXIIII",
+        "coeff": 0.26915671725086837
+      },
+      {
+        "pauli": "YXIIXI",
+        "coeff": -0.34104868990397924
+      },
+      {
+        "pauli": "YXIIYI",
+        "coeff": -0.17716799363959246
+      },
+      {
+        "pauli": "YXIIZI",
+        "coeff": -0.1360307426880475
+      },
+      {
+        "pauli": "YXIXII",
+        "coeff": 0.0658886223821344
+      },
+      {
+        "pauli": "YXIYII",
+        "coeff": 0.10280009662604478
+      },
+      {
+        "pauli": "YXIZII",
+        "coeff": 0.03312620181428111
+      },
+      {
+        "pauli": "YYIIII",
+        "coeff": 0.14619065579940188
+      },
+      {
+        "pauli": "YYIIXI",
+        "coeff": -0.17456276233614115
+      },
+      {
+        "pauli": "YYIIYI",
+        "coeff": 0.016138619200063976
+      },
+      {
+        "pauli": "YYIIZI",
+        "coeff": 0.13798853530979635
+      },
+      {
+        "pauli": "YYIXII",
+        "coeff": -0.025494046148120383
+      },
+      {
+        "pauli": "YYIYII",
+        "coeff": 0.18830412180009604
+      },
+      {
+        "pauli": "YYIZII",
+        "coeff": 0.22474403194010664
+      },
+      {
+        "pauli": "YZIIII",
+        "coeff": -0.13736417552315117
+      },
+      {
+        "pauli": "YZIIXI",
+        "coeff": 0.025953300682557277
+      },
+      {
+        "pauli": "YZIIYI",
+        "coeff": 0.0007258462733282521
+      },
+      {
+        "pauli": "YZIIZI",
+        "coeff": 0.08040154149387792
+      },
+      {
+        "pauli": "YZIXII",
+        "coeff": -0.17372102065332376
+      },
+      {
+        "pauli": "YZIYII",
+        "coeff": 0.09565174373959778
+      },
+      {
+        "pauli": "YZIZII",
+        "coeff": 0.16233504109772873
+      },
+      {
+        "pauli": "ZIIIII",
+        "coeff": 0.05914541848385316
+      },
+      {
+        "pauli": "ZIIIXI",
+        "coeff": -0.057145186988418514
+      },
+      {
+        "pauli": "ZIIIYI",
+        "coeff": -0.05814250102699995
+      },
+      {
+        "pauli": "ZIIIZI",
+        "coeff": 0.17196925211756542
+      },
+      {
+        "pauli": "ZIIXII",
+        "coeff": -0.1297314745605894
+      },
+      {
+        "pauli": "ZIIYII",
+        "coeff": 0.24601085708614667
+      },
+      {
+        "pauli": "ZIIZII",
+        "coeff": 0.23737836745081778
+      },
+      {
+        "pauli": "ZXIIII",
+        "coeff": -0.2104954460666542
+      },
+      {
+        "pauli": "ZXIIXI",
+        "coeff": -0.015922010276876657
+      },
+      {
+        "pauli": "ZXIIYI",
+        "coeff": -0.09513098681479637
+      },
+      {
+        "pauli": "ZXIIZI",
+        "coeff": 0.18671090801148338
+      },
+      {
+        "pauli": "ZXIXII",
+        "coeff": -0.05120966608401618
+      },
+      {
+        "pauli": "ZXIYII",
+        "coeff": 0.07412374500606912
+      },
+      {
+        "pauli": "ZXIZII",
+        "coeff": -0.14530879924856632
+      },
+      {
+        "pauli": "ZYIIII",
+        "coeff": -0.25612153210902233
+      },
+      {
+        "pauli": "ZYIIXI",
+        "coeff": -0.23363305725440303
+      },
+      {
+        "pauli": "ZYIIYI",
+        "coeff": -0.06126327086367773
+      },
+      {
+        "pauli": "ZYIIZI",
+        "coeff": -0.08368814919075201
+      },
+      {
+        "pauli": "ZYIXII",
+        "coeff": -0.03851804742288016
+      },
+      {
+        "pauli": "ZYIYII",
+        "coeff": -0.11014871507901376
+      },
+      {
+        "pauli": "ZYIZII",
+        "coeff": -0.21023079823101154
+      },
+      {
+        "pauli": "ZZIIII",
+        "coeff": 0.13070928458576644
+      },
+      {
+        "pauli": "ZZIIXI",
+        "coeff": 0.03945632248055176
+      },
+      {
+        "pauli": "ZZIIYI",
+        "coeff": 0.11831882201669901
+      },
+      {
+        "pauli": "ZZIIZI",
+        "coeff": -0.14822908639579058
+      },
+      {
+        "pauli": "ZZIXII",
+        "coeff": 0.24140179397354186
+      },
+      {
+        "pauli": "ZZIYII",
+        "coeff": -0.0314138202677082
+      },
+      {
+        "pauli": "ZZIZII",
+        "coeff": 0.07387262445508387
+      }
+    ]
+  },
+  "metadata": {
+    "clifford_scrambled": false,
+    "num_planted": 1
+  }
+}

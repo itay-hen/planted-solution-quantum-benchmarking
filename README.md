@@ -90,6 +90,10 @@ subset of options and uses the manuscript defaults. For the full parameter
 surface or graceful per-instance error handling, call
 `generate_general_instance` directly.
 
+Pre-generated instance/key pairs for all channels are in
+[`examples/`](examples/) — `python qbench.py verify examples/general_single_n8`
+works out of the box. See [`examples/README.md`](examples/README.md).
+
 Drop-in single-instance scripts (replacements for the originals) are also
 provided: `spectrum_single.py`, `mingap_single.py`, `make_filelist.py`.
 They mirror the old file-name I/O contract but report degeneracy-aware
