@@ -2,7 +2,8 @@
 
 This is the validated implementation and numerical data for *Certified
 Planted-Solution Pauli Hamiltonians for Ground-State Benchmarking* (Kalev & Hen).
-The source/data snapshot is `v22-r1`, SHA-256
+The code-only repository release is `v22-r2`; it retains the validated
+source/data snapshot `v22-r1`, SHA-256
 `0bd8a3597f20c5e59120794a861e61d7923b6643d23d5f4b63a96a5fdbe7735b`.
 Every code, vendor, dependency and data file is pinned in [MANIFEST.json](MANIFEST.json).
 

@@ -33,8 +33,8 @@ uniqueness.
 The original `planted_benchmark` package and `qbench` CLI remain available at the
 repository root for compatibility. Their documentation is in
 [README-legacy.md](README-legacy.md). `pip install -e .` installs that older API;
-it does not install the revision scripts. The root-level `qb_gs_v18.pdf` is a
-historical manuscript, not the revised scientific description.
+it does not install the revision scripts. Manuscripts and submission materials
+are not distributed in the current repository tree or code release.
 
 The revision's v3 key schema and older package's v2 schema are separate formats.
 New reproduction work should use `revision/`.

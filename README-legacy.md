@@ -2,8 +2,8 @@
 
 A reference implementation of the planted-solution Pauli-Hamiltonian
 benchmarking construction (Kalev & Hen, *Planted-Solution Pauli
-Hamiltonians as a Quantum Benchmarking Primitive*). The manuscript is
-included in this repository as [`qb_gs_v18.pdf`](qb_gs_v18.pdf).
+Hamiltonians as a Quantum Benchmarking Primitive*). This repository distributes
+code and code-related documentation and data; manuscript files are excluded.
 
 This is a documented, tested rewrite of an earlier script collection
 (`qb_planted_v5.py` + `qb_assess.py` + spectral/adiabatic helpers). It
