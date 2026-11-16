@@ -1,0 +1,8 @@
+# Preserve the validated snapshot byte-for-byte, including CSV CRLF records.
+revision/code/** -text
+revision/vendor/** -text
+revision/data/** -text
+revision/requirements.txt -text
+# Historical source/data whitespace is retained for content-hash provenance.
+revision/vendor/*.py -whitespace
+revision/data/*.csv -whitespace

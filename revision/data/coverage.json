@@ -1,0 +1,905 @@
+{
+ "q": 3,
+ "trials": 20000,
+ "Ms": [
+  6,
+  8,
+  10,
+  12,
+  16,
+  20,
+  24,
+  32,
+  40,
+  48,
+  64,
+  80,
+  96,
+  128,
+  160,
+  200
+ ],
+ "regimes": {
+  "fixed_K_20": [
+   {
+    "M": 6,
+    "K": 20,
+    "E_unc_theory": 5.7220458984375e-06,
+    "P_full_theory": 0.9999942779542589,
+    "E_unc_mc": 0.0,
+    "P_full_mc": 1.0,
+    "P_graph_proxy_mc": 1.0
+   },
+   {
+    "M": 8,
+    "K": 20,
+    "E_unc_theory": 0.0006617444900424221,
+    "P_full_theory": 0.9993382874250846,
+    "E_unc_mc": 0.0009,
+    "P_full_mc": 0.9991,
+    "P_graph_proxy_mc": 0.9991
+   },
+   {
+    "M": 10,
+    "K": 20,
+    "E_unc_theory": 0.00797922662976119,
+    "P_full_theory": 0.9920315691080194,
+    "E_unc_mc": 0.00905,
+    "P_full_mc": 0.991,
+    "P_graph_proxy_mc": 0.991
+   },
+   {
+    "M": 12,
+    "K": 20,
+    "E_unc_theory": 0.03805454326720792,
+    "P_full_theory": 0.9623031900365545,
+    "E_unc_mc": 0.04035,
+    "P_full_mc": 0.9599,
+    "P_graph_proxy_mc": 0.9599
+   },
+   {
+    "M": 16,
+    "K": 20,
+    "E_unc_theory": 0.25152860122966403,
+    "P_full_theory": 0.7694185950346047,
+    "E_unc_mc": 0.25315,
+    "P_full_mc": 0.76805,
+    "P_graph_proxy_mc": 0.76795
+   },
+   {
+    "M": 20,
+    "K": 20,
+    "E_unc_theory": 0.7751906216902866,
+    "P_full_theory": 0.4276696150509787,
+    "E_unc_mc": 0.77835,
+    "P_full_mc": 0.4262,
+    "P_graph_proxy_mc": 0.42525
+   },
+   {
+    "M": 24,
+    "K": 20,
+    "E_unc_theory": 1.6610102105743263,
+    "P_full_theory": 0.14435626037510924,
+    "E_unc_mc": 1.66205,
+    "P_full_mc": 0.1423,
+    "P_graph_proxy_mc": 0.1405
+   },
+   {
+    "M": 32,
+    "K": 20,
+    "E_unc_theory": 4.46797124997676,
+    "P_full_theory": 0.0025122515433239896,
+    "E_unc_mc": 4.45035,
+    "P_full_mc": 0.00265,
+    "P_graph_proxy_mc": 0.00215
+   },
+   {
+    "M": 40,
+    "K": 20,
+    "E_unc_theory": 8.411910554663766,
+    "P_full_theory": 2.017561167916715e-06,
+    "E_unc_mc": 8.40905,
+    "P_full_mc": 0.0,
+    "P_graph_proxy_mc": 0.0
+   },
+   {
+    "M": 48,
+    "K": 20,
+    "E_unc_theory": 13.202821914640143,
+    "P_full_theory": 2.8793693669519795e-11,
+    "E_unc_mc": 13.1572,
+    "P_full_mc": 0.0,
+    "P_graph_proxy_mc": 0.0
+   },
+   {
+    "M": 64,
+    "K": 20,
+    "E_unc_theory": 24.500626769020563,
+    "P_full_theory": 0.0,
+    "E_unc_mc": 24.4886,
+    "P_full_mc": 0.0,
+    "P_graph_proxy_mc": 0.0
+   },
+   {
+    "M": 80,
+    "K": 20,
+    "E_unc_theory": 37.2481536915603,
+    "P_full_theory": 0.0,
+    "E_unc_mc": 37.20695,
+    "P_full_mc": 0.0,
+    "P_graph_proxy_mc": 0.0
+   },
+   {
+    "M": 96,
+    "K": 20,
+    "E_unc_theory": 50.87513132957986,
+    "P_full_theory": 0.0,
+    "E_unc_mc": 50.8677,
+    "P_full_mc": 0.0,
+    "P_graph_proxy_mc": 0.0
+   },
+   {
+    "M": 128,
+    "K": 20,
+    "E_unc_theory": 79.65459555662261,
+    "P_full_theory": 0.0,
+    "E_unc_mc": 79.6398,
+    "P_full_mc": 0.0,
+    "P_graph_proxy_mc": 0.0
+   },
+   {
+    "M": 160,
+    "K": 20,
+    "E_unc_theory": 109.57547897732229,
+    "P_full_theory": 0.0,
+    "E_unc_mc": 109.5862,
+    "P_full_mc": 0.0,
+    "P_graph_proxy_mc": 0.0
+   },
+   {
+    "M": 200,
+    "K": 20,
+    "E_unc_theory": 147.82728666942032,
+    "P_full_theory": 0.0,
+    "E_unc_mc": 147.8422,
+    "P_full_mc": 0.0,
+    "P_graph_proxy_mc": 0.0
+   }
+  ],
+  "fixed_K_60": [
+   {
+    "M": 6,
+    "K": 60,
+    "E_unc_theory": 5.204170427930421e-18,
+    "P_full_theory": 1.0,
+    "E_unc_mc": 0.0,
+    "P_full_mc": 1.0,
+    "P_graph_proxy_mc": 1.0
+   },
+   {
+    "M": 8,
+    "K": 60,
+    "E_unc_theory": 4.527839539413356e-12,
+    "P_full_theory": 0.9999999999954722,
+    "E_unc_mc": 0.0,
+    "P_full_mc": 1.0,
+    "P_graph_proxy_mc": 1.0
+   },
+   {
+    "M": 10,
+    "K": 60,
+    "E_unc_theory": 5.080218607396215e-09,
+    "P_full_theory": 0.9999999949197814,
+    "E_unc_mc": 0.0,
+    "P_full_mc": 1.0,
+    "P_graph_proxy_mc": 1.0
+   },
+   {
+    "M": 12,
+    "K": 60,
+    "E_unc_theory": 3.826987551538953e-07,
+    "P_full_theory": 0.9999996173012554,
+    "E_unc_mc": 0.0,
+    "P_full_mc": 1.0,
+    "P_graph_proxy_mc": 1.0
+   },
+   {
+    "M": 16,
+    "K": 60,
+    "E_unc_theory": 6.216159675239974e-05,
+    "P_full_theory": 0.9999378391177136,
+    "E_unc_mc": 0.0001,
+    "P_full_mc": 0.9999,
+    "P_graph_proxy_mc": 0.9999
+   },
+   {
+    "M": 20,
+    "K": 60,
+    "E_unc_theory": 0.0011645698398694347,
+    "P_full_theory": 0.998835798141474,
+    "E_unc_mc": 0.0013,
+    "P_full_mc": 0.9987,
+    "P_graph_proxy_mc": 0.9987
+   },
+   {
+    "M": 24,
+    "K": 60,
+    "E_unc_theory": 0.007955993562540453,
+    "P_full_theory": 0.9920648532631928,
+    "E_unc_mc": 0.00805,
+    "P_full_mc": 0.99195,
+    "P_graph_proxy_mc": 0.99195
+   },
+   {
+    "M": 32,
+    "K": 60,
+    "E_unc_theory": 0.08710260686608146,
+    "P_full_theory": 0.9158509785162047,
+    "E_unc_mc": 0.0868,
+    "P_full_mc": 0.9156,
+    "P_graph_proxy_mc": 0.9156
+   },
+   {
+    "M": 40,
+    "K": 60,
+    "E_unc_theory": 0.37201800175371585,
+    "P_full_theory": 0.6824055823428766,
+    "E_unc_mc": 0.3663,
+    "P_full_mc": 0.68785,
+    "P_graph_proxy_mc": 0.68785
+   },
+   {
+    "M": 48,
+    "K": 60,
+    "E_unc_theory": 0.9988903587612745,
+    "P_full_theory": 0.3485095085542174,
+    "E_unc_mc": 1.00225,
+    "P_full_mc": 0.3484,
+    "P_graph_proxy_mc": 0.34815
+   },
+   {
+    "M": 64,
+    "K": 60,
+    "E_unc_theory": 3.590638106247003,
+    "P_full_theory": 0.016964584109234133,
+    "E_unc_mc": 3.61105,
+    "P_full_mc": 0.0156,
+    "P_graph_proxy_mc": 0.01545
+   },
+   {
+    "M": 80,
+    "K": 60,
+    "E_unc_theory": 8.07484654701096,
+    "P_full_theory": 4.5143112796916153e-05,
+    "E_unc_mc": 8.07295,
+    "P_full_mc": 0.00015,
+    "P_graph_proxy_mc": 0.0001
+   },
+   {
+    "M": 96,
+    "K": 60,
+    "E_unc_theory": 14.288089564021117,
+    "P_full_theory": 3.537403734419303e-09,
+    "E_unc_mc": 14.268,
+    "P_full_mc": 0.0,
+    "P_graph_proxy_mc": 0.0
+   },
+   {
+    "M": 128,
+    "K": 60,
+    "E_unc_theory": 30.846974273316917,
+    "P_full_theory": 4.447983270569387e-23,
+    "E_unc_mc": 30.86635,
+    "P_full_mc": 0.0,
+    "P_graph_proxy_mc": 0.0
+   },
+   {
+    "M": 160,
+    "K": 60,
+    "E_unc_theory": 51.39255009152335,
+    "P_full_theory": 6.145617743397626e-48,
+    "E_unc_mc": 51.4062,
+    "P_full_mc": 0.0,
+    "P_graph_proxy_mc": 0.0
+   },
+   {
+    "M": 200,
+    "K": 60,
+    "E_unc_theory": 80.76139752355277,
+    "P_full_theory": 0.0,
+    "E_unc_mc": 80.75045,
+    "P_full_mc": 0.0,
+    "P_graph_proxy_mc": 0.0
+   }
+  ],
+  "density_1": [
+   {
+    "M": 6,
+    "K": 6,
+    "E_unc_theory": 0.09375,
+    "P_full_theory": 0.9072096875,
+    "E_unc_mc": 0.0967,
+    "P_full_mc": 0.9043,
+    "P_graph_proxy_mc": 0.9043
+   },
+   {
+    "M": 8,
+    "K": 8,
+    "E_unc_theory": 0.1862645149230957,
+    "P_full_theory": 0.821088921353095,
+    "E_unc_mc": 0.1876,
+    "P_full_mc": 0.8203,
+    "P_graph_proxy_mc": 0.82015
+   },
+   {
+    "M": 10,
+    "K": 10,
+    "E_unc_theory": 0.2824752489999998,
+    "P_full_theory": 0.7390370834031298,
+    "E_unc_mc": 0.2835,
+    "P_full_mc": 0.7375,
+    "P_graph_proxy_mc": 0.7374
+   },
+   {
+    "M": 12,
+    "K": 12,
+    "E_unc_theory": 0.38011622428894043,
+    "P_full_theory": 0.6635850905052166,
+    "E_unc_mc": 0.38075,
+    "P_full_mc": 0.6625,
+    "P_graph_proxy_mc": 0.6623
+   },
+   {
+    "M": 16,
+    "K": 16,
+    "E_unc_theory": 0.5771569066274732,
+    "P_full_theory": 0.5332604899329362,
+    "E_unc_mc": 0.57775,
+    "P_full_mc": 0.53055,
+    "P_graph_proxy_mc": 0.52995
+   },
+   {
+    "M": 20,
+    "K": 20,
+    "E_unc_theory": 0.7751906216902866,
+    "P_full_theory": 0.4276696150509787,
+    "E_unc_mc": 0.78045,
+    "P_full_mc": 0.4236,
+    "P_graph_proxy_mc": 0.42285
+   },
+   {
+    "M": 24,
+    "K": 24,
+    "E_unc_theory": 0.9736536903293354,
+    "P_full_theory": 0.34266344381087466,
+    "E_unc_mc": 0.9726,
+    "P_full_mc": 0.33805,
+    "P_graph_proxy_mc": 0.3371
+   },
+   {
+    "M": 32,
+    "K": 32,
+    "E_unc_theory": 1.3711551678601654,
+    "P_full_theory": 0.2196850662636093,
+    "E_unc_mc": 1.3676,
+    "P_full_mc": 0.2217,
+    "P_graph_proxy_mc": 0.2212
+   },
+   {
+    "M": 40,
+    "K": 40,
+    "E_unc_theory": 1.7690059794915916,
+    "P_full_theory": 0.14072037228350656,
+    "E_unc_mc": 1.7722,
+    "P_full_mc": 0.1392,
+    "P_graph_proxy_mc": 0.13855
+   },
+   {
+    "M": 48,
+    "K": 48,
+    "E_unc_theory": 2.1670179292909686,
+    "P_full_theory": 0.09010128513029991,
+    "E_unc_mc": 2.1867,
+    "P_full_mc": 0.0892,
+    "P_graph_proxy_mc": 0.08845
+   },
+   {
+    "M": 64,
+    "K": 64,
+    "E_unc_theory": 2.963269013621635,
+    "P_full_theory": 0.036915739333289316,
+    "E_unc_mc": 2.97515,
+    "P_full_mc": 0.0379,
+    "P_graph_proxy_mc": 0.0375
+   },
+   {
+    "M": 80,
+    "K": 80,
+    "E_unc_theory": 3.759664065235366,
+    "P_full_theory": 0.015118791956414818,
+    "E_unc_mc": 3.7289,
+    "P_full_mc": 0.01665,
+    "P_graph_proxy_mc": 0.01655
+   },
+   {
+    "M": 96,
+    "K": 96,
+    "E_unc_theory": 4.556128060404353,
+    "P_full_theory": 0.006190652049176893,
+    "E_unc_mc": 4.54425,
+    "P_full_mc": 0.0057,
+    "P_graph_proxy_mc": 0.0057
+   },
+   {
+    "M": 128,
+    "K": 128,
+    "E_unc_theory": 6.149156124672818,
+    "P_full_theory": 0.0010376410199285702,
+    "E_unc_mc": 6.15005,
+    "P_full_mc": 0.00085,
+    "P_graph_proxy_mc": 0.0008
+   },
+   {
+    "M": 160,
+    "K": 160,
+    "E_unc_theory": 7.742249152371775,
+    "P_full_theory": 0.00017388951136851038,
+    "E_unc_mc": 7.75585,
+    "P_full_mc": 0.0,
+    "P_graph_proxy_mc": 0.0
+   },
+   {
+    "M": 200,
+    "K": 200,
+    "E_unc_theory": 9.733658275698025,
+    "P_full_theory": 1.8642305634845264e-05,
+    "E_unc_mc": 9.72975,
+    "P_full_mc": 5e-05,
+    "P_graph_proxy_mc": 5e-05
+   }
+  ],
+  "density_2": [
+   {
+    "M": 6,
+    "K": 12,
+    "E_unc_theory": 0.00146484375,
+    "P_full_theory": 0.9985352176899951,
+    "E_unc_mc": 0.00135,
+    "P_full_mc": 0.99865,
+    "P_graph_proxy_mc": 0.99865
+   },
+   {
+    "M": 8,
+    "K": 16,
+    "E_unc_theory": 0.004336808689942018,
+    "P_full_theory": 0.9956651529363602,
+    "E_unc_mc": 0.00385,
+    "P_full_mc": 0.99615,
+    "P_graph_proxy_mc": 0.99615
+   },
+   {
+    "M": 10,
+    "K": 20,
+    "E_unc_theory": 0.00797922662976119,
+    "P_full_theory": 0.9920315691080194,
+    "E_unc_mc": 0.0085,
+    "P_full_mc": 0.99155,
+    "P_graph_proxy_mc": 0.99155
+   },
+   {
+    "M": 12,
+    "K": 24,
+    "E_unc_theory": 0.012040695330640006,
+    "P_full_theory": 0.9879910348180476,
+    "E_unc_mc": 0.0104,
+    "P_full_mc": 0.98965,
+    "P_graph_proxy_mc": 0.98965
+   },
+   {
+    "M": 16,
+    "K": 32,
+    "E_unc_theory": 0.02081938092923711,
+    "P_full_theory": 0.9793040733854482,
+    "E_unc_mc": 0.02155,
+    "P_full_mc": 0.97865,
+    "P_graph_proxy_mc": 0.97865
+   },
+   {
+    "M": 20,
+    "K": 40,
+    "E_unc_theory": 0.03004602499782866,
+    "P_full_theory": 0.9702480056270124,
+    "E_unc_mc": 0.029,
+    "P_full_mc": 0.97145,
+    "P_graph_proxy_mc": 0.97145
+   },
+   {
+    "M": 24,
+    "K": 48,
+    "E_unc_theory": 0.039500062862163884,
+    "P_full_theory": 0.9610507454396919,
+    "E_unc_mc": 0.0409,
+    "P_full_mc": 0.95975,
+    "P_graph_proxy_mc": 0.95975
+   },
+   {
+    "M": 32,
+    "K": 64,
+    "E_unc_theory": 0.058752077948426205,
+    "P_full_theory": 0.9425820706304145,
+    "E_unc_mc": 0.05735,
+    "P_full_mc": 0.9438,
+    "P_graph_proxy_mc": 0.9438
+   },
+   {
+    "M": 40,
+    "K": 80,
+    "E_unc_theory": 0.07823455388692514,
+    "P_full_theory": 0.9242476487041386,
+    "E_unc_mc": 0.07655,
+    "P_full_mc": 0.92625,
+    "P_graph_proxy_mc": 0.92625
+   },
+   {
+    "M": 48,
+    "K": 96,
+    "E_unc_theory": 0.09783263970559414,
+    "P_full_theory": 0.9061610547686578,
+    "E_unc_mc": 0.0955,
+    "P_full_mc": 0.908,
+    "P_graph_proxy_mc": 0.908
+   },
+   {
+    "M": 64,
+    "K": 128,
+    "E_unc_theory": 0.13720255073578339,
+    "P_full_theory": 0.8708852931036835,
+    "E_unc_mc": 0.13455,
+    "P_full_mc": 0.8729,
+    "P_graph_proxy_mc": 0.8729
+   },
+   {
+    "M": 80,
+    "K": 160,
+    "E_unc_theory": 0.17668842354277647,
+    "P_full_theory": 0.8368816229002489,
+    "E_unc_mc": 0.17575,
+    "P_full_mc": 0.83765,
+    "P_graph_proxy_mc": 0.83765
+   },
+   {
+    "M": 96,
+    "K": 192,
+    "E_unc_theory": 0.21623232190420766,
+    "P_full_theory": 0.8041569231759288,
+    "E_unc_mc": 0.2193,
+    "P_full_mc": 0.8017,
+    "P_graph_proxy_mc": 0.8017
+   },
+   {
+    "M": 128,
+    "K": 256,
+    "E_unc_theory": 0.29540719566875967,
+    "P_full_theory": 0.7424288556934175,
+    "E_unc_mc": 0.2976,
+    "P_full_mc": 0.73935,
+    "P_graph_proxy_mc": 0.73935
+   },
+   {
+    "M": 160,
+    "K": 320,
+    "E_unc_theory": 0.3746401371087592,
+    "P_full_theory": 0.6853974923904308,
+    "E_unc_mc": 0.37345,
+    "P_full_mc": 0.68655,
+    "P_graph_proxy_mc": 0.68655
+   },
+   {
+    "M": 200,
+    "K": 400,
+    "E_unc_theory": 0.4737205171403232,
+    "P_full_theory": 0.6202035961257647,
+    "E_unc_mc": 0.47325,
+    "P_full_mc": 0.61845,
+    "P_graph_proxy_mc": 0.61845
+   }
+  ],
+  "coverage_c0": [
+   {
+    "M": 6,
+    "K": 4,
+    "E_unc_theory": 0.375,
+    "P_full_theory": 0.648875,
+    "E_unc_mc": 0.37065,
+    "P_full_mc": 0.65205,
+    "P_graph_proxy_mc": 0.651
+   },
+   {
+    "M": 8,
+    "K": 6,
+    "E_unc_theory": 0.476837158203125,
+    "P_full_theory": 0.5794608807899982,
+    "E_unc_mc": 0.46945,
+    "P_full_mc": 0.5833,
+    "P_graph_proxy_mc": 0.58205
+   },
+   {
+    "M": 10,
+    "K": 8,
+    "E_unc_theory": 0.5764800999999997,
+    "P_full_theory": 0.5185798717555922,
+    "E_unc_mc": 0.5773,
+    "P_full_mc": 0.5219,
+    "P_graph_proxy_mc": 0.52025
+   },
+   {
+    "M": 12,
+    "K": 10,
+    "E_unc_theory": 0.6757621765136719,
+    "P_full_theory": 0.46416893152564825,
+    "E_unc_mc": 0.6833,
+    "P_full_mc": 0.4623,
+    "P_graph_proxy_mc": 0.4609
+   },
+   {
+    "M": 16,
+    "K": 15,
+    "E_unc_theory": 0.7103469620030439,
+    "P_full_theory": 0.45505701450896774,
+    "E_unc_mc": 0.7076,
+    "P_full_mc": 0.4553,
+    "P_graph_proxy_mc": 0.45445
+   },
+   {
+    "M": 20,
+    "K": 20,
+    "E_unc_theory": 0.7751906216902866,
+    "P_full_theory": 0.4276696150509787,
+    "E_unc_mc": 0.7763,
+    "P_full_mc": 0.4282,
+    "P_graph_proxy_mc": 0.4274
+   },
+   {
+    "M": 24,
+    "K": 26,
+    "E_unc_theory": 0.7454536066583973,
+    "P_full_theory": 0.4475848182227029,
+    "E_unc_mc": 0.74585,
+    "P_full_mc": 0.44535,
+    "P_graph_proxy_mc": 0.44485
+   },
+   {
+    "M": 32,
+    "K": 37,
+    "E_unc_theory": 0.8381595596700867,
+    "P_full_theory": 0.40872038998375265,
+    "E_unc_mc": 0.83295,
+    "P_full_mc": 0.40855,
+    "P_graph_proxy_mc": 0.40835
+   },
+   {
+    "M": 40,
+    "K": 50,
+    "E_unc_theory": 0.8112349040696145,
+    "P_full_theory": 0.42529615942596577,
+    "E_unc_mc": 0.81315,
+    "P_full_mc": 0.42315,
+    "P_graph_proxy_mc": 0.4229
+   },
+   {
+    "M": 48,
+    "K": 62,
+    "E_unc_theory": 0.8779309793800263,
+    "P_full_theory": 0.3980291771008546,
+    "E_unc_mc": 0.8832,
+    "P_full_mc": 0.39615,
+    "P_graph_proxy_mc": 0.396
+   },
+   {
+    "M": 64,
+    "K": 89,
+    "E_unc_theory": 0.8923137913611845,
+    "P_full_theory": 0.3956970007005433,
+    "E_unc_mc": 0.8869,
+    "P_full_mc": 0.3982,
+    "P_graph_proxy_mc": 0.39795
+   },
+   {
+    "M": 80,
+    "K": 117,
+    "E_unc_theory": 0.9140634724100096,
+    "P_full_theory": 0.38903505229403185,
+    "E_unc_mc": 0.9168,
+    "P_full_mc": 0.3872,
+    "P_graph_proxy_mc": 0.3872
+   },
+   {
+    "M": 96,
+    "K": 147,
+    "E_unc_theory": 0.9023882124434859,
+    "P_full_theory": 0.39556602135127034,
+    "E_unc_mc": 0.90275,
+    "P_full_mc": 0.3974,
+    "P_graph_proxy_mc": 0.39735
+   },
+   {
+    "M": 128,
+    "K": 208,
+    "E_unc_theory": 0.9221869848318631,
+    "P_full_theory": 0.38963278340801333,
+    "E_unc_mc": 0.9282,
+    "P_full_mc": 0.3851,
+    "P_graph_proxy_mc": 0.3851
+   },
+   {
+    "M": 160,
+    "K": 271,
+    "E_unc_theory": 0.9471319471767479,
+    "P_full_theory": 0.3810616988976577,
+    "E_unc_mc": 0.93765,
+    "P_full_mc": 0.386,
+    "P_graph_proxy_mc": 0.3859
+   },
+   {
+    "M": 200,
+    "K": 354,
+    "E_unc_theory": 0.949413913232257,
+    "P_full_theory": 0.3813451672984855,
+    "E_unc_mc": 0.9577,
+    "P_full_mc": 0.38145,
+    "P_graph_proxy_mc": 0.3814
+   }
+  ],
+  "coverage_c2": [
+   {
+    "M": 6,
+    "K": 8,
+    "E_unc_theory": 0.0234375,
+    "P_full_theory": 0.97660089921875,
+    "E_unc_mc": 0.0226,
+    "P_full_mc": 0.9774,
+    "P_graph_proxy_mc": 0.9774
+   },
+   {
+    "M": 8,
+    "K": 11,
+    "E_unc_theory": 0.04547473508864641,
+    "P_full_theory": 0.9548625486365765,
+    "E_unc_mc": 0.046,
+    "P_full_mc": 0.9543,
+    "P_graph_proxy_mc": 0.9543
+   },
+   {
+    "M": 10,
+    "K": 15,
+    "E_unc_theory": 0.047475615099429956,
+    "P_full_theory": 0.9530111382575267,
+    "E_unc_mc": 0.04835,
+    "P_full_mc": 0.95205,
+    "P_graph_proxy_mc": 0.95205
+   },
+   {
+    "M": 12,
+    "K": 18,
+    "E_unc_theory": 0.06765252136392519,
+    "P_full_theory": 0.933546530381384,
+    "E_unc_mc": 0.064,
+    "P_full_mc": 0.93695,
+    "P_graph_proxy_mc": 0.93695
+   },
+   {
+    "M": 16,
+    "K": 26,
+    "E_unc_theory": 0.07236483789519986,
+    "P_full_theory": 0.9292610515219528,
+    "E_unc_mc": 0.0706,
+    "P_full_mc": 0.93075,
+    "P_graph_proxy_mc": 0.93075
+   },
+   {
+    "M": 20,
+    "K": 34,
+    "E_unc_theory": 0.07966608401455154,
+    "P_full_theory": 0.9225024114218571,
+    "E_unc_mc": 0.07805,
+    "P_full_mc": 0.92425,
+    "P_graph_proxy_mc": 0.92425
+   },
+   {
+    "M": 24,
+    "K": 42,
+    "E_unc_theory": 0.08801353584764077,
+    "P_full_theory": 0.9147996297016325,
+    "E_unc_mc": 0.0879,
+    "P_full_mc": 0.9151,
+    "P_graph_proxy_mc": 0.9151
+   },
+   {
+    "M": 32,
+    "K": 59,
+    "E_unc_theory": 0.09611322136946919,
+    "P_full_theory": 0.9074879264171324,
+    "E_unc_mc": 0.09405,
+    "P_full_mc": 0.90985,
+    "P_graph_proxy_mc": 0.90985
+   },
+   {
+    "M": 40,
+    "K": 76,
+    "E_unc_theory": 0.10686406234604622,
+    "P_full_theory": 0.8977742186307953,
+    "E_unc_mc": 0.10435,
+    "P_full_mc": 0.8996,
+    "P_graph_proxy_mc": 0.8996
+   },
+   {
+    "M": 48,
+    "K": 94,
+    "E_unc_theory": 0.11131180339836488,
+    "P_full_theory": 0.893855334431622,
+    "E_unc_mc": 0.11225,
+    "P_full_mc": 0.8934,
+    "P_graph_proxy_mc": 0.8934
+   },
+   {
+    "M": 64,
+    "K": 132,
+    "E_unc_theory": 0.11323003186476767,
+    "P_full_theory": 0.8922967118966773,
+    "E_unc_mc": 0.11495,
+    "P_full_mc": 0.89155,
+    "P_graph_proxy_mc": 0.89155
+   },
+   {
+    "M": 80,
+    "K": 171,
+    "E_unc_theory": 0.11604227001397328,
+    "P_full_theory": 0.8898784890541221,
+    "E_unc_mc": 0.11565,
+    "P_full_mc": 0.8906,
+    "P_graph_proxy_mc": 0.8906
+   },
+   {
+    "M": 96,
+    "K": 211,
+    "E_unc_theory": 0.11828868574813495,
+    "P_full_theory": 0.8879454052842793,
+    "E_unc_mc": 0.1185,
+    "P_full_mc": 0.8867,
+    "P_graph_proxy_mc": 0.8867
+   },
+   {
+    "M": 128,
+    "K": 293,
+    "E_unc_theory": 0.12283515386787192,
+    "P_full_theory": 0.8839979650794396,
+    "E_unc_mc": 0.12465,
+    "P_full_mc": 0.88245,
+    "P_graph_proxy_mc": 0.88245
+   },
+   {
+    "M": 160,
+    "K": 378,
+    "E_unc_theory": 0.12497845438050767,
+    "P_full_theory": 0.8821666996154436,
+    "E_unc_mc": 0.12715,
+    "P_full_mc": 0.87995,
+    "P_graph_proxy_mc": 0.87995
+   },
+   {
+    "M": 200,
+    "K": 487,
+    "E_unc_theory": 0.12719623253561757,
+    "P_full_theory": 0.8802645747159976,
+    "E_unc_mc": 0.13055,
+    "P_full_mc": 0.8771,
+    "P_graph_proxy_mc": 0.8771
+   }
+  ]
+ },
+ "poisson_limit": {
+  "c0": 0.36787944117144233,
+  "c2": 0.8734230184931167
+ },
+ "graph_proxy_definition": "Full coverage and at least two distinct supports in every connected component; no Hamiltonian kernels are sampled or verified."
+}

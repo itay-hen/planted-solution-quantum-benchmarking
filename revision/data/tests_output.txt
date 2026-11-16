@@ -1,0 +1,21 @@
+publish.py self-test OK: traceless publication reproduces the public ground energy; identity term removed; trace zero; lambda_0 randomisation verified to leave the traceless public Hamiltonian unchanged (so it is not a mitigation)
+PASS T0 pbcore.generate reproduces qb_planted_v5 Pauli sums (incl. Clifford) -- max coefficient deviation 0.0e+00 over 5 configurations
+PASS T0b clause sequences are nested across K for fixed seed -- prefix property holds for K=5,12,29 of K'=30
+PASS T1 every clause and total Hamiltonian Hermitian -- 8 qubits, 12 clauses, Clifford on
+PASS T2 <Psi*|H|Psi*> = E0 (unscrambled) within 1e-12 relative -- max rel. error 6.5e-16
+PASS T3 A_k = alpha_k (H^(k) - lambda_0 I) is PSD and annihilates planted restriction -- min local eigenvalue >= -1e-12; ||B Psi*|| < 1e-12
+PASS T4 spectrum invariant under Clifford conjugation; U maps planted state to ground state -- eigenvalues agree to 1e-11
+PASS T4b Clifford gate conjugation tables match matrix conjugation -- all 1- and 2-qubit tables verified
+PASS T4c code convention: H' = V H V^dag with V = g_1 g_2 ... g_d (gate list order); target V|Psi*> -- 26 gates; convention confirmed
+PASS T5 L <= sum_k 4^|Lambda_k| <= K 4^r; Clifford: L(V H V^dag) = L(H), equal one-norm -- example: L=1035, L'=1035, bound=1536, max weight 3->10
+PASS T6 structural ground-space dimension equals ED multiplicity (bimodal + golf_course) -- 672 instances, 0 mismatches
+PASS T6b matrix-free deflated gap equals ED gap above ground manifold -- max |Delta_Lanczos - Delta_ED| = 3.9e-14
+PASS T7 E[N_unc] and P(full coverage) formulas vs Monte Carlo -- M=10,K=8: P 0.5208/0.5186; M=20,K=20: P 0.4269/0.4277; M=30,K=40: P 0.6292/0.6304; M=60,K=90: P 0.5440/0.5431
+PASS T8 multi-planted ground dimension = m^c x uncovered factor (golf_course, exact local spaces) -- 106 instances, 0 mismatches
+PASS T8b bimodal multi-planted: local kernel strictly larger than planted span (theorem hypothesis fails) -- local kernel dims {5} (m=2, d=8)
+PASS T9 product-state baseline: analytic gradient vs finite differences; fast energy vs dense expectation -- max grad error 8.4e-08; max energy error 7.2e-16
+PASS T10 publish: traceless publication; lambda_0 randomisation leaves the public Hamiltonian unchanged -- identity removed, trace zero, public E0 reproduced; lambda_0 shifts invisible
+PASS T11 coordinate witnesses cannot certify half-rank uniqueness; Haar draws give dim 1 -- min coordinate witness = 4; Haar draws = [1]
+PASS T12 prefixes preserve the Clifford frame and reject invalid lengths -- full and shorter prefixes retain the same circuit
+PASS T13 non-divisible block sizes fail explicitly; valid blocks cover all qubits -- unsupported remainders rejected before generation
+PASS T14 publication keys reconstruct after JSON serialization and reject tampering -- six round trips verified without RNG replay; altered records rejected

@@ -1,0 +1,4 @@
+# Versions used for the revision; Python 3.13.4 was used for validation.
+numpy==2.2.6
+scipy==1.16.3
+matplotlib==3.10.3
